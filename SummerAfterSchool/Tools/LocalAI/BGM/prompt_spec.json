@@ -1,0 +1,22 @@
+{
+  "track": "summer_loop",
+  "label": "街区探索",
+  "bpm": 80,
+  "seed": 2026100401,
+  "duration_seconds": 48,
+  "caption": "Slow instrumental nostalgic summer afternoon exploration music, 80 BPM. Warm diatonic harmonica carries a simple singable lead motif, supported by gentle fingerpicked acoustic guitar, soft felt piano chords, mellow upright bass and very light brushed percussion. Add occasional wooden marimba accents, never busy or electronic. A sunny Chinese childhood neighborhood, paper toys, cicadas, friends playing after school; relaxed, cozy, handcrafted and playful, no vocals, no singing, no speech.",
+  "instrumental": true,
+  "instruments": [
+    "diatonic harmonica",
+    "fingerpicked acoustic guitar",
+    "felt piano",
+    "upright bass",
+    "wooden marimba or xylophone",
+    "light brushed percussion"
+  ],
+  "loop_crossfade_seconds": 1.6,
+  "target_rms": 0.12,
+  "peak_ceiling": 0.78,
+  "negative_prompt": "vocals, singing, speech, distorted recording, harsh synthesizer, aggressive drums, dramatic cinematic music",
+  "generation_mode": "local ACE-Step 1.5 turbo + 0.6B LM; offline only"
+}

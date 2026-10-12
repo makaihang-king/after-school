@@ -1,0 +1,11 @@
+# Unity 本地缓存/生成物（SummerAfterSchool/.gitignore 已覆盖 Library、Temp、Logs、UserSettings、Builds）
+SummerAfterSchool/.cache/
+SummerAfterSchool/$out/
+
+# 指向本机路径的快捷方式
+*.lnk
+
+# 本地工具状态与日志
+.mimosa/
+*.log
+Thumbs.db

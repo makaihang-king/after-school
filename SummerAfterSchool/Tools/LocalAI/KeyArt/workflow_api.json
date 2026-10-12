@@ -1,0 +1,104 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2.1_int4_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_8b_w4a8.safetensors",
+      "type": "qwen_image",
+      "device": "cpu"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "prompt": "A richly crafted cinematic miniature diorama illustration of a nostalgic Chinese neighborhood in the late 1990s, warm summer afternoon after school, handmade clay and painted wood materials with soft paper textures. A charming old terracotta brick alley with moss, pale cream plaster walls, wooden doors, leafy grape trellis and a large old green tree. On the lower right, three cheerful small children in simple colorful summer shirts and shorts, kneeling around a chalk circle on the ground, playing with colorful round paper pog discs. The children are viewed mostly from behind and from a three quarter overhead angle. Orange soda bottles in a crate, striped canvas school bags, a paper airplane, a friendly orange cat sleeping on a low wooden bench. Golden shafts of sunlight, dappled leaf shadows, amber light, subtle dust motes, pale turquoise and faded ochre accents. The left third has a softly lit plain cream plaster wall and open space for a game menu, detailed scene clustered on the right. Elegant premium cozy adventure game key art, expressive stylized shapes, physically believable warm soft lighting, tilt shift depth of field, a beautiful sense of wonder, intimacy and childhood summer memories. Wide landscape composition. No text, no logos, no watermark.",
+      "negative_prompt": "",
+      "resolution": 1024
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1152,
+      "height": 640,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "QwenImage21Cache",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "device": "cpu",
+      "dtype": "int8"
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "6",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "4",
+        1
+      ],
+      "latent_image": [
+        "5",
+        0
+      ],
+      "seed": 2026100301,
+      "steps": 25,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "ChildhoodGame/summer_keyart"
+    }
+  }
+}

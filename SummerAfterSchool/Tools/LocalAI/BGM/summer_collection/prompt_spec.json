@@ -1,0 +1,22 @@
+{
+  "track": "summer_collection",
+  "label": "铁盒收藏",
+  "bpm": 74,
+  "seed": 2026100403,
+  "duration_seconds": 48,
+  "caption": "Quiet instrumental childhood collection music, 74 BPM. A tender restrained diatonic harmonica phrase appears occasionally while soft felt piano and nylon-string guitar carry the melody; sparse wooden marimba notes, delicate upright bass and almost no percussion. Opening a small tin box of paper toys at a wooden desk in late-summer golden light, peaceful affectionate and intimate, no vocals, no singing, no speech, no electronic instruments.",
+  "instrumental": true,
+  "instruments": [
+    "diatonic harmonica",
+    "fingerpicked acoustic guitar",
+    "felt piano",
+    "upright bass",
+    "wooden marimba or xylophone",
+    "light brushed percussion"
+  ],
+  "loop_crossfade_seconds": 1.6,
+  "target_rms": 0.105,
+  "peak_ceiling": 0.72,
+  "negative_prompt": "vocals, singing, speech, distorted recording, harsh synthesizer, aggressive drums, dramatic cinematic music",
+  "generation_mode": "local ACE-Step 1.5 turbo + 0.6B LM; offline only"
+}

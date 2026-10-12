@@ -1,0 +1,401 @@
+{
+  "source": "original procedural artwork and feedback sound synthesis; not AI generated",
+  "seed": 19980817,
+  "pogs": [
+    {
+      "id": "pog_00",
+      "title": "汽水小火箭",
+      "motif": "rocket",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_01",
+      "title": "月牙小队长",
+      "motif": "moon",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_02",
+      "title": "西瓜冲浪手",
+      "motif": "watermelon",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_03",
+      "title": "纸飞机一号",
+      "motif": "plane",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_04",
+      "title": "橘猫午睡",
+      "motif": "cat",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_05",
+      "title": "云端邮差",
+      "motif": "cloud",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_06",
+      "title": "星星捕手",
+      "motif": "star",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_07",
+      "title": "糖果风车",
+      "motif": "pinwheel",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_08",
+      "title": "小熊机车",
+      "motif": "bearbike",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_09",
+      "title": "雨靴探险家",
+      "motif": "boots",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_10",
+      "title": "蒸汽小火车",
+      "motif": "train",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_11",
+      "title": "蓝鲸电台",
+      "motif": "whale",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_12",
+      "title": "萤火夏令营",
+      "motif": "firefly",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_13",
+      "title": "红砖守卫",
+      "motif": "brick",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_14",
+      "title": "爆米花骑士",
+      "motif": "popcorn",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_15",
+      "title": "雪糕宇航员",
+      "motif": "astronaut",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_16",
+      "title": "彩虹水母",
+      "motif": "jellyfish",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_17",
+      "title": "霓虹溜溜球",
+      "motif": "yoyo",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_18",
+      "title": "豆豆大力王",
+      "motif": "strongbean",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_19",
+      "title": "弹簧青蛙",
+      "motif": "frog",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_20",
+      "title": "潜水鸭船长",
+      "motif": "duck",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_21",
+      "title": "葡萄泡泡龙",
+      "motif": "dragon",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_22",
+      "title": "胶鞋跳跳侠",
+      "motif": "sneaker",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_23",
+      "title": "山丘巨人",
+      "motif": "hillgiant",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_24",
+      "title": "铜铃巡游者",
+      "motif": "bell",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_25",
+      "title": "铁皮月亮",
+      "motif": "tinmoon",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_26",
+      "title": "齿轮小狮子",
+      "motif": "lion",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_27",
+      "title": "太阳徽章",
+      "motif": "sun",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_28",
+      "title": "银河独角兽",
+      "motif": "unicorn",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_29",
+      "title": "夏天的金蝉",
+      "motif": "cicada",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_30",
+      "title": "月牙护校将",
+      "motif": "moonhero",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_31",
+      "title": "红砖大将军",
+      "motif": "brickhero",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_32",
+      "title": "槐荫金蝉使",
+      "motif": "leafhero",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_33",
+      "title": "夏日大王",
+      "motif": "summerking",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_34",
+      "title": "竹蜻蜓小兵",
+      "motif": "bamboospinner",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_35",
+      "title": "葵扇守卫",
+      "motif": "fanhero",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_36",
+      "title": "水桶小侠",
+      "motif": "buckethero",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_37",
+      "title": "石狮巡街",
+      "motif": "stonelion",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_38",
+      "title": "风筝双子",
+      "motif": "kitetwins",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_39",
+      "title": "荷塘莲将",
+      "motif": "lotushero",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_40",
+      "title": "铜鼓使者",
+      "motif": "drummer",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "id": "pog_41",
+      "title": "晚霞麒麟",
+      "motif": "qilin",
+      "size": [
+        768,
+        768
+      ]
+    }
+  ],
+  "audio": [
+    "slap",
+    "smash",
+    "skim",
+    "flip",
+    "win",
+    "lose",
+    "ui",
+    "ambience",
+    "summer_loop"
+  ],
+  "card_back": "pog_back",
+  "fonts": [
+    "C:/Windows/Fonts/msyh.ttc",
+    "C:/Windows/Fonts/simkai.ttf"
+  ],
+  "bgm_source": "local ACE-Step 1.5 turbo + 0.6B LM; see Tools/LocalAI/BGM/generation_status.json"
+}

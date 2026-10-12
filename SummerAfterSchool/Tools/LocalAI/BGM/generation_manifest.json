@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-04T23:31:49+0800",
+  "model": {
+    "service": "ACE-Step 1.5",
+    "checkpoint": "acestep-v15-turbo",
+    "lm": "acestep-5Hz-lm-0.6B",
+    "offline": true,
+    "inference_steps": 8,
+    "runtime": "D:\\AI\\ACE-Step-1.5\\.venv\\Scripts\\python.exe"
+  },
+  "tracks": {
+    "summer_loop": {
+      "label": "街区探索",
+      "bpm": 80,
+      "seed": 2026100401,
+      "caption": "Slow instrumental nostalgic summer afternoon exploration music, 80 BPM. Warm diatonic harmonica carries a simple singable lead motif, supported by gentle fingerpicked acoustic guitar, soft felt piano chords, mellow upright bass and very light brushed percussion. Add occasional wooden marimba accents, never busy or electronic. A sunny Chinese childhood neighborhood, paper toys, cicadas, friends playing after school; relaxed, cozy, handcrafted and playful, no vocals, no singing, no speech.",
+      "duration_seconds": 48,
+      "loop_crossfade_seconds": 1.6,
+      "target_rms": 0.12,
+      "peak_ceiling": 0.78,
+      "instrumental": true,
+      "negative_prompt": "vocals, singing, speech, distorted recording, harsh synthesizer, aggressive drums, dramatic cinematic music",
+      "latest": {
+        "success": true,
+        "phase": "complete",
+        "source_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Tools\\LocalAI\\BGM\\source\\4dcb4a0b-a8f4-e8f8-14e4-80fd296c9e39.wav",
+        "exported_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Assets\\Resources\\Audio\\summer_loop.wav",
+        "sample_rate": 48000,
+        "exported_duration": 46.4,
+        "started_at": 1791125962.33462,
+        "finished_at": 1791126105.8081672
+      }
+    },
+    "summer_match": {
+      "label": "圆片比赛",
+      "bpm": 88,
+      "seed": 2026100402,
+      "caption": "Slow-to-moderate instrumental childhood paper pog game soundtrack, 88 BPM. Keep a warm diatonic harmonica hook as the lead, with relaxed plucked acoustic guitar, soft felt piano, upright bass, wooden marimba or xylophone answers and a clear but gentle brushed drum groove. Friendly small competitive lift without tension, no heavy drums, no synths, no cinematic build, no vocals, no singing, no speech; sunny after-school courtyard and handmade paper toys.",
+      "duration_seconds": 48,
+      "loop_crossfade_seconds": 1.6,
+      "target_rms": 0.115,
+      "peak_ceiling": 0.76,
+      "instrumental": true,
+      "negative_prompt": "vocals, singing, speech, distorted recording, harsh synthesizer, aggressive drums, dramatic cinematic music",
+      "latest": {
+        "success": true,
+        "phase": "complete",
+        "source_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Tools\\LocalAI\\BGM\\summer_match\\source\\7da69741-0a77-af64-fa1b-9a000c0cefe8.wav",
+        "exported_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Assets\\Resources\\Audio\\summer_match.wav",
+        "sample_rate": 48000,
+        "exported_duration": 46.4,
+        "started_at": 1791126128.0946069,
+        "finished_at": 1791126225.2163541
+      }
+    },
+    "summer_collection": {
+      "label": "铁盒收藏",
+      "bpm": 74,
+      "seed": 2026100403,
+      "caption": "Quiet instrumental childhood collection music, 74 BPM. A tender restrained diatonic harmonica phrase appears occasionally while soft felt piano and nylon-string guitar carry the melody; sparse wooden marimba notes, delicate upright bass and almost no percussion. Opening a small tin box of paper toys at a wooden desk in late-summer golden light, peaceful affectionate and intimate, no vocals, no singing, no speech, no electronic instruments.",
+      "duration_seconds": 48,
+      "loop_crossfade_seconds": 1.6,
+      "target_rms": 0.105,
+      "peak_ceiling": 0.72,
+      "instrumental": true,
+      "negative_prompt": "vocals, singing, speech, distorted recording, harsh synthesizer, aggressive drums, dramatic cinematic music",
+      "latest": {
+        "success": true,
+        "phase": "complete",
+        "source_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Tools\\LocalAI\\BGM\\summer_collection\\source\\685ddbdd-10b0-8a7b-6d78-931c2080820b.wav",
+        "exported_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Assets\\Resources\\Audio\\summer_collection.wav",
+        "sample_rate": 48000,
+        "exported_duration": 46.4,
+        "started_at": 1791126592.743358,
+        "finished_at": 1791126698.812469
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "started_at": 1791026360.0161984,
+  "source": "local Qwen Image 2.1 int4, ComfyUI",
+  "prompt": "A richly crafted cinematic miniature diorama illustration of a nostalgic Chinese neighborhood in the late 1990s, warm summer afternoon after school, handmade clay and painted wood materials with soft paper textures. A charming old terracotta brick alley with moss, pale cream plaster walls, wooden doors, leafy grape trellis and a large old green tree. On the lower right, three cheerful small children in simple colorful summer shirts and shorts, kneeling around a chalk circle on the ground, playing with colorful round paper pog discs. The children are viewed mostly from behind and from a three quarter overhead angle. Orange soda bottles in a crate, striped canvas school bags, a paper airplane, a friendly orange cat sleeping on a low wooden bench. Golden shafts of sunlight, dappled leaf shadows, amber light, subtle dust motes, pale turquoise and faded ochre accents. The left third has a softly lit plain cream plaster wall and open space for a game menu, detailed scene clustered on the right. Elegant premium cozy adventure game key art, expressive stylized shapes, physically believable warm soft lighting, tilt shift depth of field, a beautiful sense of wonder, intimacy and childhood summer memories. Wide landscape composition. No text, no logos, no watermark.",
+  "models": [
+    "qwen_image_2.1_int4_convrot.safetensors",
+    "qwen3vl_8b_w4a8.safetensors",
+    "qwen_image_2.1_vae_bf16.safetensors"
+  ],
+  "owned_process_id": 1952,
+  "phase": "complete",
+  "prompt_id": "f1c032d3-adb4-400b-8ba8-1765d5cfaf2a",
+  "source_file": "D:\\AI\\ComfyUI_windows_portable\\ComfyUI\\output\\ChildhoodGame\\summer_keyart_00001_.png",
+  "exported_file": "D:\\桌面\\童年游戏\\SummerAfterSchool\\Assets\\Resources\\Art\\summer_keyart.png",
+  "result": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "f1c032d3-adb4-400b-8ba8-1765d5cfaf2a",
+          "timestamp": 1791026408579
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "f1c032d3-adb4-400b-8ba8-1765d5cfaf2a",
+          "timestamp": 1791026408582
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "f1c032d3-adb4-400b-8ba8-1765d5cfaf2a",
+          "timestamp": 1791026679933
+        }
+      ]
+    ]
+  },
+  "owned_process_closed": true,
+  "finished_at": 1791026681.3618336
+}

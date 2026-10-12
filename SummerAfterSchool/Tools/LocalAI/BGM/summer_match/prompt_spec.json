@@ -1,0 +1,22 @@
+{
+  "track": "summer_match",
+  "label": "圆片比赛",
+  "bpm": 88,
+  "seed": 2026100402,
+  "duration_seconds": 48,
+  "caption": "Slow-to-moderate instrumental childhood paper pog game soundtrack, 88 BPM. Keep a warm diatonic harmonica hook as the lead, with relaxed plucked acoustic guitar, soft felt piano, upright bass, wooden marimba or xylophone answers and a clear but gentle brushed drum groove. Friendly small competitive lift without tension, no heavy drums, no synths, no cinematic build, no vocals, no singing, no speech; sunny after-school courtyard and handmade paper toys.",
+  "instrumental": true,
+  "instruments": [
+    "diatonic harmonica",
+    "fingerpicked acoustic guitar",
+    "felt piano",
+    "upright bass",
+    "wooden marimba or xylophone",
+    "light brushed percussion"
+  ],
+  "loop_crossfade_seconds": 1.6,
+  "target_rms": 0.115,
+  "peak_ceiling": 0.76,
+  "negative_prompt": "vocals, singing, speech, distorted recording, harsh synthesizer, aggressive drums, dramatic cinematic music",
+  "generation_mode": "local ACE-Step 1.5 turbo + 0.6B LM; offline only"
+}
