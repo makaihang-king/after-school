@@ -7,7 +7,7 @@
 
 ## 直接玩
 
-从 [Releases](https://github.com/makaihang-king/after-school/releases) 下载 Windows 版或 Android APK；本地开发可双击 `开始玩.cmd`（需先构建，见下）。
+仓库当前仅含源码，可按下面的方法在 Unity 中构建出 Windows / Android 版本。
 
 ## 在 Unity 中继续开发
 
@@ -19,3 +19,9 @@ powershell -ExecutionPolicy Bypass -File .\SummerAfterSchool\Tools\build.ps1
 ```
 
 > 注：Unity 的 `Builds/`（各版本成品，约 2GB）不入库，仓库仅含源码；成品可按上述脚本重新构建。
+
+## 许可证
+
+- **代码**：[MIT License](LICENSE)
+- **美术 / 模型 / 音频素材与设计文档**：[CC BY-NC 4.0](LICENSE-ASSETS)（署名—非商业性使用），商业使用需联系作者授权
+
